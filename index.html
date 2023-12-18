@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A static page with Just HTML an CSS to put into test what I have learnt at Altschool Africa for the past 3months."
+    />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="./Assets/font-awesome-4.7.0/css/font-awesome.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="container">
+      <main class="top">
+        <div>
+          <img
+            src="./Assets/images/Logo.png"
+            alt="a picture representing brand logo"
+          />
+        </div>
+        <h2>For Individuals</h2>
+        <p></p>
+      </main>
+      <section class="side">
+        <form action="./submit.html" method="get">
+          <div class="fullform">
+            <div class="left">
+              <div class="formrow">
+                <label for="firstname">First Name</label>
+                <input
+                  type="text"
+                  name="firstname"
+                  id="firstname"
+                  placeholder="Tolu"
+                  required
+                />
+              </div>
+              <div class="formrow">
+                <label for="gender">Gender</label>
+                <select name="gender" id="gender" required>
+                  <option value="" disabled selected>Select here</option>
+                  <option value="male">MAle</option>
+                  <option value="female">Female</option>
+                </select>
+              </div>
+              <div class="formrow">
+                <label for="weight">Weight(KG)</label>
+                <input
+                  type="text"
+                  name="weight"
+                  id="weight"
+                  placeholder="Enter Weight"
+                  required
+                />
+              </div>
+            </div>
+            <div class="right">
+              <div class="formrow">
+                <label for="lastname">Last Name</label>
+                <input type="text" name="lastname" id="lastname" required />
+              </div>
+              <div class="formrow">
+                <label for="dateofbirth">Date of Birth</label>
+                <input
+                  type="date"
+                  name="dateofbirth"
+                  placeholder="Enter here"
+                  required
+                />
+              </div>
+              <div class="formrow">
+                <label for="height">Height(CM)</label>
+                <input
+                  type="text"
+                  name="height"
+                  id="height"
+                  placeholder="Enter height here."
+                  required
+                />
+              </div>
+            </div>
+          </div>
+          <div class="authenticate">
+            <div class="activate">
+              <label for="activity">Activity Level</label>
+              <select name="activity" id="activity" required>
+                <option value="" disabled selected>Select here</option>
+                <option value="active">Active</option>
+                <option value="weak">Weak</option>
+              </select>
+            </div>
+            <div class="password">
+              <label for="password">Password</label>
+              <input type="password" name="password" id="password" required />
+              <i class="fa fa-eye" aria-hidden="true"></i>
+            </div>
+            <div class="submit">
+              <input type="submit" id="submit" name="submit" value="Register" />
+            </div>
+          </div>
+          <div class="termsofuse">
+            <p>
+              By clicking Register, you agree to our
+              <a href="">Terms of Use</a> and our <a href="">Privacy Policy</a>
+            </p>
+          </div>
+        </form>
+      </section>
+    </section>
+  </body>
+</html>
