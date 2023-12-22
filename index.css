@@ -106,6 +106,8 @@ img {
 }
 .top p::before {
   content: "Start benefiting from the wellness experience. For companies looking on increasing productivity, and improving organization wellness.";
+  max-width: 460px;
+  line-height: 25px;
 }
 
 .side {
