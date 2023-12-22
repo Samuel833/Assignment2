@@ -137,6 +137,7 @@ img {
 .formrow input,
 .formrow select {
   height: 48px;
+  width: 238px;
   border-radius: 2px;
   border: 1px solid #f0f0f0;
 }
