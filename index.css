@@ -334,7 +334,7 @@ select:focus {
   .formrow select,
   .activate select,
   .password input,
-  .submit input, .formrow input[for="dateofbirth"] {
+  .submit input, .formrow input[type="date"] {
     width: 295px;
     height: 48px;
   }
