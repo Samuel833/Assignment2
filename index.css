@@ -330,7 +330,7 @@ select:focus {
     margin-inline: 24px;
     margin-block-start: 40px;
   }
-  input,
+  input[type="text"],
   .formrow select,
   .activate select,
   .password input,
